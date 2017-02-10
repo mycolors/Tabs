@@ -21,4 +21,9 @@ public class MainActivity extends AppCompatActivity {
     public void tabOne(View view) {
         startActivity(new Intent(this, TabOneActivity.class));
     }
+
+    @OnClick(R.id.two)
+    public void tabTwo(View view) {
+        startActivity(new Intent(this, TabTwoActivity.class));
+    }
 }

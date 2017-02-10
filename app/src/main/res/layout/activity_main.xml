@@ -8,9 +8,15 @@
     android:orientation="vertical"
     tools:context="com.fengniao.tabs.MainActivity">
 
-   <Button
-       android:id="@+id/one"
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:text="viewpager+fragment"/>
+    <Button
+        android:id="@+id/one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="viewpager+fragment" />
+
+    <Button
+        android:id="@+id/two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fragment" />
 </LinearLayout>
